@@ -1,5 +1,5 @@
 .abrir{
-    background-color: white;
+    background-color: rgb(227, 227, 215);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #1D949C;
+    color: #a54d21;
     top: 0px;
     left: 0px;
     
@@ -20,7 +20,7 @@
     align-items: center;
     border: none;
     background: transparent;
-    color: #1D949C;
+    color: #a54d21;
 }
 
 .abrir.oculto{
@@ -51,8 +51,7 @@
 
 .texto_biblico{
     padding-bottom: 50px;
-    color: #606060;
- 
+    color: #2f4538;
     
    
 }
@@ -68,14 +67,11 @@
     
 }
 
-.frase {
-    color: #303525;
- 
-}
+
 
 .nomes {
 
-    color: #1D949C;
+    color: #a54d21;
     text-align: center;
     padding-bottom: 20px;
    
@@ -84,17 +80,18 @@
 
 .abrir{
     display: flex;
-    justify-content: end; 
+    justify-content: center; 
 
 
 }
 .img-casal-fundo{
-    width: 800px;
+    display: none;
+    /* width: 800px;
     height: 100%;
     background-image: url("../img/casal.jpg");
     background-position: center center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 
@@ -119,20 +116,56 @@
     
 }
 
-.hora p:last-child {
-    color: white;
-  background-color: #26ABB4;
+.date {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: #2f4538;
+    padding: 10px;
+    margin: 0 1rem;
+
+}
+
+.month-year, .week-hours {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #2f4538;
+    border-left: 1px solid #2f4538;
+   
+}
+.month-year{
+    padding: 14px 14px 14px 25px;
+    margin: 0 1.2rem;
+}
+
+.week-hours {
+    padding: 14px;
+    /* margin-left: rem; */
 }
 
 .links {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    color: #606060;
+    justify-content: center;
+    color: #2f4538;
 }
 
+.local flex{
+
+    padding: 5rem;
+
+}
 .flex {
     position: relative;
     z-index: 1;
@@ -140,6 +173,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .flex p {
@@ -164,7 +198,7 @@
 
 .contador p{
     margin-top: 10px;
-    color: #606060;
+    color: #2f4538;
     padding-bottom: 20px;
    
 }
@@ -178,7 +212,7 @@
 }
 
 .tempo{
-  color: #606060;
+  color: #2f4538;
     display: flex;
     flex-direction: column;
     font-weight: 700;
