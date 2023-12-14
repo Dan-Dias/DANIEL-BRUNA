@@ -1,5 +1,5 @@
 function countDown() {
-  const diasCasamento = new Date('2 December 2023 18:00:00');
+  const diasCasamento = new Date('19 October 2024 16:00:00');
   const dataAtual = new Date();
   const quantoTempo = diasCasamento.getTime() - dataAtual.getTime();
   const dias = Math.floor(quantoTempo / (24 * 60 * 60 * 1000));
