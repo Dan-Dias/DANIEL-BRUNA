@@ -1,5 +1,5 @@
 .abrir{
-    background-color: rgb(227, 227, 215);
+    background-color: #ede6dd;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -14,13 +14,17 @@
     
 }
 
+body {
+background-color: #f0ece8;
+}
+
 .abrir button{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: none;
     background: transparent;
-    color: #a54d21;
+    color: #b54171;
 }
 
 .abrir.oculto{
@@ -38,28 +42,29 @@
     transition: transform 0.8s, opacity 1.5s;
 }
 .home {
-    padding-top: 150px;
+    padding-top: 80px;
 
 }
 
 .frase {
-    padding: 20px 10px;
+    padding: 0px 10px;
     text-align: center;
 }
 
 
 .texto_biblico{
-    color: #2f4538;
-     
+    color: #4e634e;
+    padding-bottom: 50px;
+    padding-left: 60px;
 }
 
 .home::after{
     content: "";
     display: block;
-    width: 200px;
-    height: 123px;
+    width: 172px;
+    height: 300px;
     top: 0;
-    background-image: url("../img/home-flores-e.png");
+    background-image: url("../img/flor_canto2.png");
     position: absolute;
     
 }
@@ -68,9 +73,9 @@
 
 .nomes {
 
-    color: #a54d21;
+    color: #b54171;
     text-align: center;
-    padding: 35px 20px;
+    padding: 25px;
    
    
 }
@@ -186,7 +191,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     background: url(../img/arco.png);
+     background: url(../img/arco2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -236,8 +241,6 @@ width: 100%;
     margin-top: 40px;
     
 }
-
-
 
 .hotel{
     padding-bottom: 50px!important;

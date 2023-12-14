@@ -63,10 +63,10 @@ h2{
 .conteudo::before{
     content: "";
     display: block;
-    width: 300px;
-    height: 173px;
+    width: 172px;
+    height: 300px;
     bottom: 0;
     right: 0;
-    background-image: url("../img/decoracao.png");
+    background-image: url("../img/flor_canto_baixo.png");
     position: absolute;
 }
