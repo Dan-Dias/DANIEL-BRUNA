@@ -21,7 +21,7 @@
 }
 
 .local-cerimonia{
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,19 +32,27 @@
 h2{
     padding-bottom: 20px;
     text-transform: uppercase;
-    color: #a54d21;
+    color: #b54171;
     
 }
 
 .local-cerimonia a{
     padding-top: 5px;
-    color: #a54d21;
+    color: #b54171;
     font-weight: 400;
     font-weight: bold;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
     
    
 }
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    color: #b54171;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;}
 
 #logo{
     padding-top: 40px;
@@ -54,7 +62,7 @@ h2{
 
 #presenca{
     padding-top: 50px;
-    color: #a54d21;
+    color: #b54171;
     
 
 }

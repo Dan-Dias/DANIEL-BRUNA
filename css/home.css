@@ -15,7 +15,7 @@
 }
 
 body {
-background-color: #f0ece8;
+background-color: #f6f3f0;
 }
 
 .abrir button{
@@ -220,19 +220,7 @@ background-color: #f0ece8;
     font-weight: 700;
 }
 
-
-
-.slide_casal{
-    padding-top: 50px;
-    width: 100%;
-}
-
-.slide_casal img{
-display: block;
-width: 100%;
-}
-
-.vestimenta{
+.presentes, .confirmar-presenca{
     text-align: center;
     max-width: 40ch;
 }
