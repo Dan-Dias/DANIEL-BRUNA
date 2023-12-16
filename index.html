@@ -17,7 +17,6 @@
     document.documentElement.classList.add("js");
 </script>
 <div class="abrir">
-    <!-- <div class="img-casal-fundo"></div> -->
     <div class="nomes_button">
         <p class="font-2 nomes" data-anime="200">Daniel & Bruna</p>
        <button class="frase font-1-400 btn-js" onclick="playaudio(), removeModal()" data-anime="600"><img src="img/convite_cor.png"> Abrir convite </button> 
@@ -48,19 +47,19 @@
                     </a>
                 </div>
                 <div class="confirmar flex">
-                    <a href="#confirmarcerimonia"><img src="img/forms2.png">
+                    <a href="#confirmar_presenca"><img src="img/forms2.png">
                         <p>Confimar <br>Presença</p>
                     </a>
                 </div>
                 <div class="lista flex">
-                    <a href="https://www.querodecasamento.com.br/lista-de-casamento/lucimara--jonas" target="_blank">
-                        <img src="img/presentes.png">
+                    <a href="#lista_de_presentes"><img src="img/presentes.png">
                         <p>Lista de<br> Presentes</p>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="conteudo" id="local">
         <div class="contador">
             <p class="font-2-a">Faltam</p>
@@ -82,7 +81,6 @@
                     <span class="titulo font-1-400">seg</span>
                 </div>
             </div>
-
         </div>
       
         <div class="local-cerimonia">
@@ -93,36 +91,35 @@
             <br>
             <p class="size" style="font-weight: 400;">Após cerimônia, coquetel<br> e jantar no mesmo local.</p>
             <br>
-
-            <a class="size" href="https://maps.app.goo.gl/MnGfPJun4SrLJjd69" target="_blank"><i class="fa fa-map-marker"></i> Clique aqui para ver o trajeto!</a>
+            <a class="size" href="https://maps.app.goo.gl/MnGfPJun4SrLJjd69" target="_blank"><i class="fa fa-map-marker"></i> 
+                Clique aqui para ver o trajeto!</a>
 
         </div>
-        <div class="confirmar-presenca" style="padding-bottom: 120px;">
-            <h2 class="font-1-400-m" id="localcerimonia">Confirmação de presença</h2>
-            <p class="size"> A confirmação de presença estará disponível a partir de setembro de 2024 
-                <p/>
+        <div class="confirmar-presenca" >
+            <h2 class="font-1-400-m" id="confirmar_presenca">Confirmação de presença</h2>
+            <p class="size"> A confirmação de presença estará disponível a partir de setembro de 2024 </p>
             <p class="size segundo_p"> <strong> Obs.: </strong>O convite é pessoal e, de acordo com as normas do local, 
                 apenas terão acesso aqueles que tiverem seus nomes na lista de confirmação</p>
-            <ul class="class=" size"">
-                <p class="size terceiro_p"> Ao considerar convidar alguém que não tenha recebido formalmente o convite, 
+            <p class="size terceiro_p"> Ao considerar convidar alguém que não tenha recebido formalmente o convite, 
                     solicitamos a gentileza de entrar em contato conosco para discutir a viabilidade dessa inclusão.
-                     Para cobrir os custos adicionais associados, será aplicada a taxa de R$100,00 por pessoa  </p>
-
-                <li class="size"><br> Agradecemos a compreensão </li>
-            </ul>
+                     Para cobrir os custos adicionais associados, será aplicada a taxa de R$100,00 por pessoa. 
+                     Agradecemos a compreensão  </p>
         </div>
 
         <div class="container presentes ">
-            <h2 class="font-1-400-m" id="">Sugestões</h2>
-            <p class="size"> Estamos ansiosos para celebrar nosso casamento com todos vocês e queremos garantir que sua estadia seja o mais confortável possível.
-                <p />
-            <p class="size segundo_p"> Agradecemos a compreensão </p>
+            <h2 class="font-1-400-m" id="lista_de_presentes">Presentes</h2>
+            <p class="size"> A alegria de tê-los ao nosso lado é o presente mais significativo,
+                contudo se quiser nos presentear de maneira diferente, ficaremos honrados com uma contribuição para nossa nova vida juntos, via </p>
+            <p class="size segundo_p"><strong>PIX: brutidias@gmail.com</strong> Bruna Dias da Silva  </p>
+            <p class="size terceiro_p"> ou através da nossa lista online disponível em: [link da lista].</p>
         </div>
 
-        <img src="img/LJ.png" id="logo">
+        <div class="ultimo_texto">A maior dádiva é ter ao nosso lado amigos e familiares tão incríveis!</div>
+
+        <img src="img/Logo_DB.png" id="logo">
     </div>
 
-    <audio src="audio/musica.mp3" id="audio"> </audio>
+    <audio src="audio/Te_amar.mp3" id="audio"> </audio>
 
 </body>
 <script>
@@ -133,7 +130,9 @@
     function playaudio() {
         const audio = document.querySelector("#audio");
         audio.play();
+        audio.volume = 0.1;
     }
+    
 
     function removeModal() {
         const modal = document.querySelector(".abrir");;
@@ -145,10 +144,8 @@
         home.classList.add("ativo");
     }
 
-
 </script>
 <script src="simple-anime.js"></script>
-<script src="simple-slide.js"></script>;
 <script src="script.js"></script>
 
 </html>

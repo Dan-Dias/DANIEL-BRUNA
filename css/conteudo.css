@@ -21,7 +21,7 @@
 }
 
 .local-cerimonia{
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,8 +55,8 @@ h2{
     -webkit-font-smoothing: antialiased;}
 
 #logo{
-    padding-top: 40px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
