@@ -11,11 +11,12 @@
     color: #a54d21;
     top: 0px;
     left: 0px;
-    
 }
 
 body {
 background-color: #f6f3f0;
+background-image: url("../img/flor_canto_cima.png");
+background-repeat: no-repeat;
 }
 
 .abrir button{
@@ -24,13 +25,12 @@ background-color: #f6f3f0;
     align-items: center;
     border: none;
     background: transparent;
-    color: #b54171;
+    color: #a54d21;
 }
 
 .abrir.oculto{
     display: none;
 }
-
 
 .js .home{
     opacity: 0;
@@ -42,8 +42,10 @@ background-color: #f6f3f0;
     transition: transform 0.8s, opacity 1.5s;
 }
 .home {
-    padding-top: 80px;
-
+    padding-top: 1rem;
+    background-image: url("../img/flor_canto_cima_direito.png");
+    background-repeat: no-repeat; 
+    background-position-x: right;
 }
 
 .frase {
@@ -54,46 +56,24 @@ background-color: #f6f3f0;
 
 .texto_biblico{
     color: #4e634e;
-    padding-bottom: 50px;
-    padding-left: 70px;
+    padding: 3rem 5rem 1rem 5rem;
+    font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    text-align: center;
 }
-
-.home::after{
-    content: "";
-    display: block;
-    width: 172px;
-    height: 300px;
-    top: 0;
-    background-image: url("../img/flor_canto2.png");
-    position: absolute;
-    
-}
-
 
 
 .nomes {
 
-    color: #b54171;
+    color: #d76e40;
     text-align: center;
     padding: 25px;
-   
-   
 }
 
 .abrir{
     display: flex;
     justify-content: center; 
-
-
-}
-.img-casal-fundo{
-    display: none;
-    /* width: 800px;
-    height: 100%;
-    background-image: url("../img/casal.jpg");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 
@@ -103,19 +83,14 @@ background-color: #f6f3f0;
     flex-direction: column;
 }
 
-
-
 .hora{
     text-align: center;
-    
-
 }
 
 .hora p:first-child {
     padding-bottom: 10px;
     font-size: 1rem;
     color: #303525 ;
-    
 }
 
 .date {
@@ -151,23 +126,25 @@ background-color: #f6f3f0;
 
 .week-hours {
     padding: 14px;
-    /* margin-left: rem; */
 }
 
 .links {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #2f4538;
 }
 
-.local flex{
-
+.casamento_icon{
     padding: 5rem;
-
 }
+
+.site{
+ padding: 1rem 1rem 0rem 1rem;
+}
+
 .flex {
     position: relative;
     z-index: 1;
@@ -182,27 +159,21 @@ background-color: #f6f3f0;
     padding-top: 10px;
 }
 
-
-
 .contador{
-    width: 360px;
-    height: 360px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     background: url(../img/arco2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-  
 }
 
 .contador p{
     margin-top: 10px;
-    color: #2f4538;
+    color: #d76e40;
     padding-bottom: 20px;
-   
 }
 
 .container_tempo{
@@ -214,7 +185,7 @@ background-color: #f6f3f0;
 }
 
 .tempo{
-  color: #2f4538;
+  color: #d76e40;
     display: flex;
     flex-direction: column;
     font-weight: 700;
@@ -235,7 +206,6 @@ background-color: #f6f3f0;
 .ultimo_texto{
     color: #4e634e;
     text-align: center;
-    padding: 0 40px;
+    padding: 4rem;
     font-style: italic;
 }
-

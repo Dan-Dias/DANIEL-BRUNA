@@ -3,7 +3,6 @@
     height: 100%;
     max-width: 600px;
     display: block;
-   
 
 }
 
@@ -26,14 +25,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
   
 }
+
 h2{
     padding-bottom: 20px;
     text-transform: uppercase;
-    color: #b54171;
-    
+    color: #b54171; 
 }
 
 .local-cerimonia a{
@@ -42,8 +40,6 @@ h2{
     font-weight: 400;
     font-weight: bold;
     padding-bottom: 50px;
-    
-   
 }
 
 .fa {
@@ -52,29 +48,14 @@ h2{
     font-size: inherit;
     color: #b54171;
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;}
+    -webkit-font-smoothing: antialiased;
+}
 
 #logo{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+    padding-bottom: 20px;
 }
 
 #presenca{
     padding-top: 50px;
     color: #b54171;
-    
-
-}
-
-
-.conteudo::before{
-    content: "";
-    display: block;
-    width: 172px;
-    height: 300px;
-    bottom: 0;
-    right: 0;
-    background-image: url("../img/flor_canto_baixo.png");
-    position: absolute;
 }
